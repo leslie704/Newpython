@@ -23,7 +23,8 @@ class Page(models.Model):
     title = models.CharField(max_length=128)
     url = models.URLField()
     views = models.IntegerField(default=0)
-    def __str__(self): # Python 2 还要定义 __unicode__
+    
+    def __str__(self):
         return self.title
     
 class UserProfile(models.Model):
