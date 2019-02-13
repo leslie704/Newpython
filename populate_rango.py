@@ -20,8 +20,8 @@ def populate():
              "url":"http://www.korokithakis.net/tutorials/python/", "views":8, "likes":32}, ]
     
     django_pages = [
-             {"title": "Official Django Tutorial",
-              "url":"http://docs.djangoproject.com/en/1.9/into/tutorial01/", "views":32, "likes":11},
+             {"title": "Django",
+              "url":"http://docs.djangoproject.com/en/1.5/into/tutorial01/", "views":64, "likes":32},
              {"title":"Django Rocks",
               "url":"http://www.djangorocks.com/", "views":16, "likes":33},
              {"title":"How to Tango with Django",
